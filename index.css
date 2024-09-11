@@ -1,0 +1,56 @@
+body {
+    background-image: url("croshett.avif");
+    background-color: lightgray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "SUSE", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #ebe6e8;
+    text-shadow: 0 0 3px black;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.main-content-wrapper {
+    max-width: 300px;
+    margin: auto;
+}
+
+#increment-btn {
+    background: #d91d25;
+    color: inherit;
+}
+
+#increment-btn:hover {
+    color: #d7ccc8;
+}
+
+#save-btn {
+    background: #8e0406;
+    color: inherit;
+}
+
+#save-btn:hover {
+    color: #d7ccc8;
+}
